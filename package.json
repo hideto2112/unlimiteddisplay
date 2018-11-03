@@ -1,0 +1,25 @@
+{
+  "name": "game0907",
+  "version": "1.0.0",
+  "description": "My divine Nuxt.js project",
+  "author": "松井永",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "express": "^4.15.3",
+    "firebase": "^5.5.3",
+    "nuxt": "^1.0.0",
+    "vue-touch": "^2.0.0-beta.4"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1",
+    "firebase-tools": "^4.0.3",
+    "nodemon": "^1.11.0"
+  }
+}
